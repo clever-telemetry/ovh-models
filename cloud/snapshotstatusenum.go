@@ -6,9 +6,9 @@ package cloud
 type SnapshotStatusEnum string
 
 var (
+	SnapshotStatusEnumERROR_DELETING SnapshotStatusEnum = "error_deleting"
+	SnapshotStatusEnumERROR          SnapshotStatusEnum = "error"
+	SnapshotStatusEnumDELETING       SnapshotStatusEnum = "deleting"
 	SnapshotStatusEnumCREATING       SnapshotStatusEnum = "creating"
 	SnapshotStatusEnumAVAILABLE      SnapshotStatusEnum = "available"
-	SnapshotStatusEnumDELETING       SnapshotStatusEnum = "deleting"
-	SnapshotStatusEnumERROR          SnapshotStatusEnum = "error"
-	SnapshotStatusEnumERROR_DELETING SnapshotStatusEnum = "error_deleting"
 )

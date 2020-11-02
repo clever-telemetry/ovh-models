@@ -6,6 +6,6 @@ package cloud
 type VolumeType string
 
 var (
-	VolumeTypeCLASSIC    VolumeType = "classic"
 	VolumeTypeHIGH_SPEED VolumeType = "high-speed"
+	VolumeTypeCLASSIC    VolumeType = "classic"
 )

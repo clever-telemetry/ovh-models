@@ -6,10 +6,10 @@ package cloud
 type StatusEnum string
 
 var (
+	StatusEnumRUNNING  StatusEnum = "RUNNING"
+	StatusEnumFROZEN   StatusEnum = "FROZEN"
+	StatusEnumERROR    StatusEnum = "ERROR"
+	StatusEnumDELETING StatusEnum = "DELETING"
 	StatusEnumCREATED  StatusEnum = "CREATED"
 	StatusEnumAPPLYING StatusEnum = "APPLYING"
-	StatusEnumRUNNING  StatusEnum = "RUNNING"
-	StatusEnumDELETING StatusEnum = "DELETING"
-	StatusEnumERROR    StatusEnum = "ERROR"
-	StatusEnumFROZEN   StatusEnum = "FROZEN"
 )

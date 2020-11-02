@@ -6,6 +6,6 @@ package cloud
 type NetworkRegionStatusEnum string
 
 var (
-	NetworkRegionStatusEnumACTIVE   NetworkRegionStatusEnum = "ACTIVE"
 	NetworkRegionStatusEnumBUILDING NetworkRegionStatusEnum = "BUILDING"
+	NetworkRegionStatusEnumACTIVE   NetworkRegionStatusEnum = "ACTIVE"
 )

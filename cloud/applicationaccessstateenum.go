@@ -6,6 +6,6 @@ package cloud
 type ApplicationAccessStateEnum string
 
 var (
-	ApplicationAccessStateEnumINSTALLING ApplicationAccessStateEnum = "installing"
 	ApplicationAccessStateEnumOK         ApplicationAccessStateEnum = "ok"
+	ApplicationAccessStateEnumINSTALLING ApplicationAccessStateEnum = "installing"
 )

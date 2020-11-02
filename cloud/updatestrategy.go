@@ -6,6 +6,6 @@ package cloud
 type UpdateStrategy string
 
 var (
-	UpdateStrategyLATEST_PATCH UpdateStrategy = "LATEST_PATCH"
 	UpdateStrategyNEXT_MINOR   UpdateStrategy = "NEXT_MINOR"
+	UpdateStrategyLATEST_PATCH UpdateStrategy = "LATEST_PATCH"
 )

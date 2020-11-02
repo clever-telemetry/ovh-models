@@ -6,7 +6,7 @@ package cloud
 type UpdatePolicyEnum string
 
 var (
-	UpdatePolicyEnumALWAYS_UPDATE    UpdatePolicyEnum = "ALWAYS_UPDATE"
-	UpdatePolicyEnumMINIMAL_DOWNTIME UpdatePolicyEnum = "MINIMAL_DOWNTIME"
 	UpdatePolicyEnumNEVER_UPDATE     UpdatePolicyEnum = "NEVER_UPDATE"
+	UpdatePolicyEnumMINIMAL_DOWNTIME UpdatePolicyEnum = "MINIMAL_DOWNTIME"
+	UpdatePolicyEnumALWAYS_UPDATE    UpdatePolicyEnum = "ALWAYS_UPDATE"
 )

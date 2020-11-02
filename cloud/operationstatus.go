@@ -6,9 +6,9 @@ package cloud
 type OperationStatus string
 
 var (
-	OperationStatusCREATED     OperationStatus = "created"
-	OperationStatusIN_PROGRESS OperationStatus = "in-progress"
-	OperationStatusCOMPLETED   OperationStatus = "completed"
-	OperationStatusIN_ERROR    OperationStatus = "in-error"
 	OperationStatusUNKNOWN     OperationStatus = "unknown"
+	OperationStatusIN_PROGRESS OperationStatus = "in-progress"
+	OperationStatusIN_ERROR    OperationStatus = "in-error"
+	OperationStatusCREATED     OperationStatus = "created"
+	OperationStatusCOMPLETED   OperationStatus = "completed"
 )

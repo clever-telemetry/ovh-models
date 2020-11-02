@@ -6,6 +6,6 @@ package cloud
 type FlavorState string
 
 var (
-	FlavorStateAVAILABLE   FlavorState = "available"
 	FlavorStateUNAVAILABLE FlavorState = "unavailable"
+	FlavorStateAVAILABLE   FlavorState = "available"
 )

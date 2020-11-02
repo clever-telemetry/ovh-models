@@ -6,6 +6,6 @@ package cloud
 type OpenrcVersionEnum string
 
 var (
-	OpenrcVersionEnumV2_0 OpenrcVersionEnum = "v2.0"
 	OpenrcVersionEnumV3   OpenrcVersionEnum = "v3"
+	OpenrcVersionEnumV2_0 OpenrcVersionEnum = "v2.0"
 )

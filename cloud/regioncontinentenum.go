@@ -6,8 +6,8 @@ package cloud
 type RegionContinentEnum string
 
 var (
-	RegionContinentEnumEU   RegionContinentEnum = "EU"
-	RegionContinentEnumNA   RegionContinentEnum = "NA"
 	RegionContinentEnumUS   RegionContinentEnum = "US"
+	RegionContinentEnumNA   RegionContinentEnum = "NA"
+	RegionContinentEnumEU   RegionContinentEnum = "EU"
 	RegionContinentEnumASIA RegionContinentEnum = "ASIA"
 )

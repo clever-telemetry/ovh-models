@@ -6,6 +6,6 @@ package cloud
 type MonthlyBillingStatusEnum string
 
 var (
-	MonthlyBillingStatusEnumACTIVATIONPENDING MonthlyBillingStatusEnum = "activationPending"
 	MonthlyBillingStatusEnumOK                MonthlyBillingStatusEnum = "ok"
+	MonthlyBillingStatusEnumACTIVATIONPENDING MonthlyBillingStatusEnum = "activationPending"
 )

@@ -6,6 +6,6 @@ package cloud
 type WorkflowTemplateEnum string
 
 var (
-	WorkflowTemplateEnumBUILD_IMAGE  WorkflowTemplateEnum = "build-image"
 	WorkflowTemplateEnumPRESET_IMAGE WorkflowTemplateEnum = "preset-image"
+	WorkflowTemplateEnumBUILD_IMAGE  WorkflowTemplateEnum = "build-image"
 )

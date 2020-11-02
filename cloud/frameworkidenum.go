@@ -6,11 +6,11 @@ package cloud
 type FrameworkIdEnum string
 
 var (
-	FrameworkIdEnumONNX         FrameworkIdEnum = "onnx"
-	FrameworkIdEnumTENSORFLOW_1 FrameworkIdEnum = "tensorflow_1"
 	FrameworkIdEnumTORCH        FrameworkIdEnum = "torch"
-	FrameworkIdEnumHUGGINGFACE  FrameworkIdEnum = "huggingface"
-	FrameworkIdEnumFASTAI       FrameworkIdEnum = "fastai"
+	FrameworkIdEnumTENSORFLOW_1 FrameworkIdEnum = "tensorflow_1"
 	FrameworkIdEnumPMML         FrameworkIdEnum = "pmml"
+	FrameworkIdEnumONNX         FrameworkIdEnum = "onnx"
+	FrameworkIdEnumHUGGINGFACE  FrameworkIdEnum = "huggingface"
 	FrameworkIdEnumFLOW         FrameworkIdEnum = "flow"
+	FrameworkIdEnumFASTAI       FrameworkIdEnum = "fastai"
 )

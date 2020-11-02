@@ -6,9 +6,9 @@ package cloud
 type ExecutionStateEnum string
 
 var (
-	ExecutionStateEnumIDLE    ExecutionStateEnum = "IDLE"
-	ExecutionStateEnumRUNNING ExecutionStateEnum = "RUNNING"
 	ExecutionStateEnumSUCCESS ExecutionStateEnum = "SUCCESS"
-	ExecutionStateEnumERROR   ExecutionStateEnum = "ERROR"
+	ExecutionStateEnumRUNNING ExecutionStateEnum = "RUNNING"
 	ExecutionStateEnumPAUSED  ExecutionStateEnum = "PAUSED"
+	ExecutionStateEnumIDLE    ExecutionStateEnum = "IDLE"
+	ExecutionStateEnumERROR   ExecutionStateEnum = "ERROR"
 )

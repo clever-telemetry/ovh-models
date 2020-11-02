@@ -7,7 +7,7 @@ type LabStatusEnum string
 
 var (
 	LabStatusEnumOPEN       LabStatusEnum = "open"
+	LabStatusEnumCLOSED     LabStatusEnum = "closed"
 	LabStatusEnumACTIVATING LabStatusEnum = "activating"
 	LabStatusEnumACTIVATED  LabStatusEnum = "activated"
-	LabStatusEnumCLOSED     LabStatusEnum = "closed"
 )

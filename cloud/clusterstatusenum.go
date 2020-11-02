@@ -6,17 +6,17 @@ package cloud
 type ClusterStatusEnum string
 
 var (
-	ClusterStatusEnumINSTALLING       ClusterStatusEnum = "INSTALLING"
-	ClusterStatusEnumUPDATING         ClusterStatusEnum = "UPDATING"
-	ClusterStatusEnumREDEPLOYING      ClusterStatusEnum = "REDEPLOYING"
-	ClusterStatusEnumRESETTING        ClusterStatusEnum = "RESETTING"
-	ClusterStatusEnumSUSPENDING       ClusterStatusEnum = "SUSPENDING"
-	ClusterStatusEnumREOPENING        ClusterStatusEnum = "REOPENING"
-	ClusterStatusEnumDELETING         ClusterStatusEnum = "DELETING"
-	ClusterStatusEnumSUSPENDED        ClusterStatusEnum = "SUSPENDED"
-	ClusterStatusEnumMAINTENANCE      ClusterStatusEnum = "MAINTENANCE"
-	ClusterStatusEnumERROR            ClusterStatusEnum = "ERROR"
-	ClusterStatusEnumUSER_ERROR       ClusterStatusEnum = "USER_ERROR"
 	ClusterStatusEnumUSER_QUOTA_ERROR ClusterStatusEnum = "USER_QUOTA_ERROR"
+	ClusterStatusEnumUSER_ERROR       ClusterStatusEnum = "USER_ERROR"
+	ClusterStatusEnumUPDATING         ClusterStatusEnum = "UPDATING"
+	ClusterStatusEnumSUSPENDING       ClusterStatusEnum = "SUSPENDING"
+	ClusterStatusEnumSUSPENDED        ClusterStatusEnum = "SUSPENDED"
+	ClusterStatusEnumRESETTING        ClusterStatusEnum = "RESETTING"
+	ClusterStatusEnumREOPENING        ClusterStatusEnum = "REOPENING"
+	ClusterStatusEnumREDEPLOYING      ClusterStatusEnum = "REDEPLOYING"
 	ClusterStatusEnumREADY            ClusterStatusEnum = "READY"
+	ClusterStatusEnumMAINTENANCE      ClusterStatusEnum = "MAINTENANCE"
+	ClusterStatusEnumINSTALLING       ClusterStatusEnum = "INSTALLING"
+	ClusterStatusEnumERROR            ClusterStatusEnum = "ERROR"
+	ClusterStatusEnumDELETING         ClusterStatusEnum = "DELETING"
 )

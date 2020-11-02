@@ -6,12 +6,12 @@ package cloud
 type NodePoolStatusEnum string
 
 var (
-	NodePoolStatusEnumINSTALLING  NodePoolStatusEnum = "INSTALLING"
 	NodePoolStatusEnumUPDATING    NodePoolStatusEnum = "UPDATING"
-	NodePoolStatusEnumREDEPLOYING NodePoolStatusEnum = "REDEPLOYING"
 	NodePoolStatusEnumRESIZING    NodePoolStatusEnum = "RESIZING"
 	NodePoolStatusEnumRESETTING   NodePoolStatusEnum = "RESETTING"
-	NodePoolStatusEnumDELETING    NodePoolStatusEnum = "DELETING"
-	NodePoolStatusEnumERROR       NodePoolStatusEnum = "ERROR"
+	NodePoolStatusEnumREDEPLOYING NodePoolStatusEnum = "REDEPLOYING"
 	NodePoolStatusEnumREADY       NodePoolStatusEnum = "READY"
+	NodePoolStatusEnumINSTALLING  NodePoolStatusEnum = "INSTALLING"
+	NodePoolStatusEnumERROR       NodePoolStatusEnum = "ERROR"
+	NodePoolStatusEnumDELETING    NodePoolStatusEnum = "DELETING"
 )

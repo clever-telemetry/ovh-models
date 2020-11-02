@@ -8,6 +8,6 @@ type SubscriptionKindEnum string
 var (
 	SubscriptionKindEnumSHARED     SubscriptionKindEnum = "SHARED"
 	SubscriptionKindEnumKEY_SHARED SubscriptionKindEnum = "KEY_SHARED"
-	SubscriptionKindEnumEXCLUSIVE  SubscriptionKindEnum = "EXCLUSIVE"
 	SubscriptionKindEnumFAILOVER   SubscriptionKindEnum = "FAILOVER"
+	SubscriptionKindEnumEXCLUSIVE  SubscriptionKindEnum = "EXCLUSIVE"
 )

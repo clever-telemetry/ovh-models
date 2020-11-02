@@ -7,6 +7,6 @@ type RegionStatus string
 
 var (
 	RegionStatusUP          RegionStatus = "UP"
-	RegionStatusDOWN        RegionStatus = "DOWN"
 	RegionStatusMAINTENANCE RegionStatus = "MAINTENANCE"
+	RegionStatusDOWN        RegionStatus = "DOWN"
 )

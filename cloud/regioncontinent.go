@@ -6,8 +6,8 @@ package cloud
 type RegionContinent string
 
 var (
-	RegionContinentEU   RegionContinent = "EU"
-	RegionContinentNA   RegionContinent = "NA"
 	RegionContinentUS   RegionContinent = "US"
+	RegionContinentNA   RegionContinent = "NA"
+	RegionContinentEU   RegionContinent = "EU"
 	RegionContinentASIA RegionContinent = "ASIA"
 )

@@ -6,9 +6,9 @@ package cloud
 type OperationStatusEnum string
 
 var (
-	OperationStatusEnumCREATED     OperationStatusEnum = "created"
-	OperationStatusEnumIN_PROGRESS OperationStatusEnum = "in-progress"
-	OperationStatusEnumCOMPLETED   OperationStatusEnum = "completed"
-	OperationStatusEnumIN_ERROR    OperationStatusEnum = "in-error"
 	OperationStatusEnumUNKNOWN     OperationStatusEnum = "unknown"
+	OperationStatusEnumIN_PROGRESS OperationStatusEnum = "in-progress"
+	OperationStatusEnumIN_ERROR    OperationStatusEnum = "in-error"
+	OperationStatusEnumCREATED     OperationStatusEnum = "created"
+	OperationStatusEnumCOMPLETED   OperationStatusEnum = "completed"
 )

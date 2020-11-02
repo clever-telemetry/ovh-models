@@ -6,6 +6,6 @@ package cloud
 type UpdateStrategyEnum string
 
 var (
-	UpdateStrategyEnumLATEST_PATCH UpdateStrategyEnum = "LATEST_PATCH"
 	UpdateStrategyEnumNEXT_MINOR   UpdateStrategyEnum = "NEXT_MINOR"
+	UpdateStrategyEnumLATEST_PATCH UpdateStrategyEnum = "LATEST_PATCH"
 )

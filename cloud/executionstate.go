@@ -6,9 +6,9 @@ package cloud
 type ExecutionState string
 
 var (
-	ExecutionStateIDLE    ExecutionState = "IDLE"
-	ExecutionStateRUNNING ExecutionState = "RUNNING"
 	ExecutionStateSUCCESS ExecutionState = "SUCCESS"
-	ExecutionStateERROR   ExecutionState = "ERROR"
+	ExecutionStateRUNNING ExecutionState = "RUNNING"
 	ExecutionStatePAUSED  ExecutionState = "PAUSED"
+	ExecutionStateIDLE    ExecutionState = "IDLE"
+	ExecutionStateERROR   ExecutionState = "ERROR"
 )

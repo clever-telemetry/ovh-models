@@ -6,10 +6,10 @@ package cloud
 type APIStatusEnum string
 
 var (
-	APIStatusEnumPENDING  APIStatusEnum = "pending"
-	APIStatusEnumSTARTING APIStatusEnum = "starting"
-	APIStatusEnumRUNNING  APIStatusEnum = "running"
-	APIStatusEnumSCALING  APIStatusEnum = "scaling"
 	APIStatusEnumWAKING   APIStatusEnum = "waking"
+	APIStatusEnumSTARTING APIStatusEnum = "starting"
 	APIStatusEnumSLEEPING APIStatusEnum = "sleeping"
+	APIStatusEnumSCALING  APIStatusEnum = "scaling"
+	APIStatusEnumRUNNING  APIStatusEnum = "running"
+	APIStatusEnumPENDING  APIStatusEnum = "pending"
 )

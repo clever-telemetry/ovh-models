@@ -6,6 +6,6 @@ package cloud
 type FlavorStateEnum string
 
 var (
-	FlavorStateEnumAVAILABLE   FlavorStateEnum = "available"
 	FlavorStateEnumUNAVAILABLE FlavorStateEnum = "unavailable"
+	FlavorStateEnumAVAILABLE   FlavorStateEnum = "available"
 )

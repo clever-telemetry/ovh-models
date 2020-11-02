@@ -6,8 +6,8 @@ package cloud
 type EligibilityAction string
 
 var (
-	EligibilityActionADDPAYMENTMETHOD         EligibilityAction = "addPaymentMethod"
-	EligibilityActionASKINCREASEPROJECTSQUOTA EligibilityAction = "askIncreaseProjectsQuota"
-	EligibilityActionCHALLENGEPAYMENTMETHOD   EligibilityAction = "challengePaymentMethod"
 	EligibilityActionVERIFYPAYPAL             EligibilityAction = "verifyPaypal"
+	EligibilityActionCHALLENGEPAYMENTMETHOD   EligibilityAction = "challengePaymentMethod"
+	EligibilityActionASKINCREASEPROJECTSQUOTA EligibilityAction = "askIncreaseProjectsQuota"
+	EligibilityActionADDPAYMENTMETHOD         EligibilityAction = "addPaymentMethod"
 )

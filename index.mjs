@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 import fs from 'fs'
 import { exec } from 'child_process'
-import override from './override.mjs'
 
 // Main generator
 function Generate(API_NAME = '') {
@@ -42,7 +41,7 @@ function Generate(API_NAME = '') {
             apiTs += `// ${model.description || ''}\ntype ${model.id} string\n\n`
 
             apiTs += 'var (\n'
-            apiTs +=  model.enum.map(item => {
+            apiTs +=  model.enum.sort((a, b) => b.localeCompare(a)).map(item => {
               return `\t${enumName(model.id, item)} ${model.id} = "${item}"`
             }).join('\n')
 
@@ -53,7 +52,7 @@ function Generate(API_NAME = '') {
             apiTs += `// ${model.description || ''}\ntype ${model.id} float64\n\n`
 
             apiTs += 'var (\n'
-            apiTs +=  model.enum.map(item => {
+            apiTs +=  model.enum.sort((a, b) => b - a).map(item => {
               return `\t${enumName(model.id, item)} ${model.id} = ${item}`
             }).join('\n')
 

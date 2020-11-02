@@ -6,7 +6,7 @@ package cloud
 type BillTypeEnum string
 
 var (
-	BillTypeEnumCREDITPURCHASED           BillTypeEnum = "creditPurchased"
-	BillTypeEnumMONTHLYCONSUMPTION        BillTypeEnum = "monthlyConsumption"
 	BillTypeEnumMONTHLYINSTANCEACTIVATION BillTypeEnum = "monthlyInstanceActivation"
+	BillTypeEnumMONTHLYCONSUMPTION        BillTypeEnum = "monthlyConsumption"
+	BillTypeEnumCREDITPURCHASED           BillTypeEnum = "creditPurchased"
 )

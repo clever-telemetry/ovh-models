@@ -6,10 +6,10 @@ package cloud
 type NewProjectInfoErrorCodeEnum string
 
 var (
-	NewProjectInfoErrorCodeEnumACCOUNTNOTELIGIBLE              NewProjectInfoErrorCodeEnum = "accountNotEligible"
-	NewProjectInfoErrorCodeEnumCHALLENGEPAYMENTMETHODREQUESTED NewProjectInfoErrorCodeEnum = "challengePaymentMethodRequested"
-	NewProjectInfoErrorCodeEnumINVALIDPAYMENTMEAN              NewProjectInfoErrorCodeEnum = "invalidPaymentMean"
-	NewProjectInfoErrorCodeEnumMAXPROJECTSLIMITREACHED         NewProjectInfoErrorCodeEnum = "maxProjectsLimitReached"
-	NewProjectInfoErrorCodeEnumPAYPALACCOUNTNOTVERIFIED        NewProjectInfoErrorCodeEnum = "paypalAccountNotVerified"
 	NewProjectInfoErrorCodeEnumUNPAIDDEBTS                     NewProjectInfoErrorCodeEnum = "unpaidDebts"
+	NewProjectInfoErrorCodeEnumPAYPALACCOUNTNOTVERIFIED        NewProjectInfoErrorCodeEnum = "paypalAccountNotVerified"
+	NewProjectInfoErrorCodeEnumMAXPROJECTSLIMITREACHED         NewProjectInfoErrorCodeEnum = "maxProjectsLimitReached"
+	NewProjectInfoErrorCodeEnumINVALIDPAYMENTMEAN              NewProjectInfoErrorCodeEnum = "invalidPaymentMean"
+	NewProjectInfoErrorCodeEnumCHALLENGEPAYMENTMETHODREQUESTED NewProjectInfoErrorCodeEnum = "challengePaymentMethodRequested"
+	NewProjectInfoErrorCodeEnumACCOUNTNOTELIGIBLE              NewProjectInfoErrorCodeEnum = "accountNotEligible"
 )

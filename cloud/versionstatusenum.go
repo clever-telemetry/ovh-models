@@ -6,12 +6,12 @@ package cloud
 type VersionStatusEnum string
 
 var (
+	VersionStatusEnumROLLBACK    VersionStatusEnum = "rollback"
 	VersionStatusEnumPENDING     VersionStatusEnum = "pending"
-	VersionStatusEnumBUILDING    VersionStatusEnum = "building"
-	VersionStatusEnumBUILT       VersionStatusEnum = "built"
-	VersionStatusEnumBUILD_ERROR VersionStatusEnum = "build-error"
+	VersionStatusEnumFAILED      VersionStatusEnum = "failed"
 	VersionStatusEnumDEPLOYING   VersionStatusEnum = "deploying"
 	VersionStatusEnumDEPLOYED    VersionStatusEnum = "deployed"
-	VersionStatusEnumROLLBACK    VersionStatusEnum = "rollback"
-	VersionStatusEnumFAILED      VersionStatusEnum = "failed"
+	VersionStatusEnumBUILT       VersionStatusEnum = "built"
+	VersionStatusEnumBUILDING    VersionStatusEnum = "building"
+	VersionStatusEnumBUILD_ERROR VersionStatusEnum = "build-error"
 )

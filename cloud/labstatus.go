@@ -7,7 +7,7 @@ type LabStatus string
 
 var (
 	LabStatusOPEN       LabStatus = "open"
+	LabStatusCLOSED     LabStatus = "closed"
 	LabStatusACTIVATING LabStatus = "activating"
 	LabStatusACTIVATED  LabStatus = "activated"
-	LabStatusCLOSED     LabStatus = "closed"
 )

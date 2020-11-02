@@ -6,7 +6,7 @@ package cloud
 type RightEnum string
 
 var (
-	RightEnumALL   RightEnum = "all"
-	RightEnumREAD  RightEnum = "read"
 	RightEnumWRITE RightEnum = "write"
+	RightEnumREAD  RightEnum = "read"
+	RightEnumALL   RightEnum = "all"
 )

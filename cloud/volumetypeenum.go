@@ -6,6 +6,6 @@ package cloud
 type VolumeTypeEnum string
 
 var (
-	VolumeTypeEnumCLASSIC    VolumeTypeEnum = "classic"
 	VolumeTypeEnumHIGH_SPEED VolumeTypeEnum = "high-speed"
+	VolumeTypeEnumCLASSIC    VolumeTypeEnum = "classic"
 )

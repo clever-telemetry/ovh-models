@@ -6,6 +6,6 @@ package cloud
 type InstanceGroupTypeEnum string
 
 var (
-	InstanceGroupTypeEnumAFFINITY      InstanceGroupTypeEnum = "affinity"
 	InstanceGroupTypeEnumANTI_AFFINITY InstanceGroupTypeEnum = "anti-affinity"
+	InstanceGroupTypeEnumAFFINITY      InstanceGroupTypeEnum = "affinity"
 )

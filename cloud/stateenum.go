@@ -6,9 +6,9 @@ package cloud
 type StateEnum string
 
 var (
-	StateEnumEXPIRED     StateEnum = "expired"
-	StateEnumINCREATION  StateEnum = "inCreation"
-	StateEnumOK          StateEnum = "ok"
-	StateEnumPENDINGDEBT StateEnum = "pendingDebt"
 	StateEnumUNPAID      StateEnum = "unPaid"
+	StateEnumPENDINGDEBT StateEnum = "pendingDebt"
+	StateEnumOK          StateEnum = "ok"
+	StateEnumINCREATION  StateEnum = "inCreation"
+	StateEnumEXPIRED     StateEnum = "expired"
 )

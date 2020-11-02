@@ -6,9 +6,9 @@ package cloud
 type MetricsPeriodEnum string
 
 var (
-	MetricsPeriodEnumLASTDAY   MetricsPeriodEnum = "lastday"
-	MetricsPeriodEnumLASTMONTH MetricsPeriodEnum = "lastmonth"
-	MetricsPeriodEnumLASTWEEK  MetricsPeriodEnum = "lastweek"
-	MetricsPeriodEnumLASTYEAR  MetricsPeriodEnum = "lastyear"
 	MetricsPeriodEnumTODAY     MetricsPeriodEnum = "today"
+	MetricsPeriodEnumLASTYEAR  MetricsPeriodEnum = "lastyear"
+	MetricsPeriodEnumLASTWEEK  MetricsPeriodEnum = "lastweek"
+	MetricsPeriodEnumLASTMONTH MetricsPeriodEnum = "lastmonth"
+	MetricsPeriodEnumLASTDAY   MetricsPeriodEnum = "lastday"
 )

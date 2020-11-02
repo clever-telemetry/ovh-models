@@ -6,6 +6,7 @@ package cloud
 type LoadBalancer struct {
 	Address       Address              `json:"address,omitempty"`
 	Configuration ConfigurationVersion `json:"configuration,omitempty"`
+	CreatedAt     string               `json:"createdAt,omitempty"`
 	Description   *string              `json:"description,omitempty"`
 	EgressAddress Addresses            `json:"egressAddress,omitempty"`
 	Id            string               `json:"id,omitempty"`

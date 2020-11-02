@@ -6,6 +6,6 @@ package cloud
 type StreamKindEnum string
 
 var (
-	StreamKindEnumNON_PERSISTENT StreamKindEnum = "NON_PERSISTENT"
 	StreamKindEnumPERSISTENT     StreamKindEnum = "PERSISTENT"
+	StreamKindEnumNON_PERSISTENT StreamKindEnum = "NON_PERSISTENT"
 )

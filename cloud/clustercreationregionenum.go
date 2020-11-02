@@ -6,8 +6,8 @@ package cloud
 type ClusterCreationRegionEnum string
 
 var (
-	ClusterCreationRegionEnumGRA5 ClusterCreationRegionEnum = "GRA5"
-	ClusterCreationRegionEnumGRA7 ClusterCreationRegionEnum = "GRA7"
-	ClusterCreationRegionEnumBHS5 ClusterCreationRegionEnum = "BHS5"
 	ClusterCreationRegionEnumSBG5 ClusterCreationRegionEnum = "SBG5"
+	ClusterCreationRegionEnumGRA7 ClusterCreationRegionEnum = "GRA7"
+	ClusterCreationRegionEnumGRA5 ClusterCreationRegionEnum = "GRA5"
+	ClusterCreationRegionEnumBHS5 ClusterCreationRegionEnum = "BHS5"
 )

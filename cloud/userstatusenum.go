@@ -6,8 +6,8 @@ package cloud
 type UserStatusEnum string
 
 var (
-	UserStatusEnumCREATING UserStatusEnum = "creating"
 	UserStatusEnumOK       UserStatusEnum = "ok"
 	UserStatusEnumDELETING UserStatusEnum = "deleting"
 	UserStatusEnumDELETED  UserStatusEnum = "deleted"
+	UserStatusEnumCREATING UserStatusEnum = "creating"
 )

@@ -6,7 +6,7 @@ package cloud
 type RetrievalStateEnum string
 
 var (
-	RetrievalStateEnumSEALED    RetrievalStateEnum = "sealed"
 	RetrievalStateEnumUNSEALING RetrievalStateEnum = "unsealing"
 	RetrievalStateEnumUNSEALED  RetrievalStateEnum = "unsealed"
+	RetrievalStateEnumSEALED    RetrievalStateEnum = "sealed"
 )

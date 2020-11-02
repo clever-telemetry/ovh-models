@@ -7,6 +7,6 @@ type NodePoolSizeStatusEnum string
 
 var (
 	NodePoolSizeStatusEnumUNDER_CAPACITY NodePoolSizeStatusEnum = "UNDER_CAPACITY"
-	NodePoolSizeStatusEnumCAPACITY_OK    NodePoolSizeStatusEnum = "CAPACITY_OK"
 	NodePoolSizeStatusEnumOVER_CAPACITY  NodePoolSizeStatusEnum = "OVER_CAPACITY"
+	NodePoolSizeStatusEnumCAPACITY_OK    NodePoolSizeStatusEnum = "CAPACITY_OK"
 )

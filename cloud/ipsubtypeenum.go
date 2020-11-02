@@ -6,6 +6,6 @@ package cloud
 type IpSubTypeEnum string
 
 var (
-	IpSubTypeEnumCLOUD IpSubTypeEnum = "cloud"
 	IpSubTypeEnumOVH   IpSubTypeEnum = "ovh"
+	IpSubTypeEnumCLOUD IpSubTypeEnum = "cloud"
 )

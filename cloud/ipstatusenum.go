@@ -6,6 +6,6 @@ package cloud
 type IpStatusEnum string
 
 var (
-	IpStatusEnumOK               IpStatusEnum = "ok"
 	IpStatusEnumOPERATIONPENDING IpStatusEnum = "operationPending"
+	IpStatusEnumOK               IpStatusEnum = "ok"
 )

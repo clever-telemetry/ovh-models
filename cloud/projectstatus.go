@@ -6,9 +6,9 @@ package cloud
 type ProjectStatus string
 
 var (
-	ProjectStatusCREATING  ProjectStatus = "creating"
-	ProjectStatusDELETED   ProjectStatus = "deleted"
-	ProjectStatusDELETING  ProjectStatus = "deleting"
-	ProjectStatusOK        ProjectStatus = "ok"
 	ProjectStatusSUSPENDED ProjectStatus = "suspended"
+	ProjectStatusOK        ProjectStatus = "ok"
+	ProjectStatusDELETING  ProjectStatus = "deleting"
+	ProjectStatusDELETED   ProjectStatus = "deleted"
+	ProjectStatusCREATING  ProjectStatus = "creating"
 )

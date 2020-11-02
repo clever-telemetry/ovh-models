@@ -6,7 +6,7 @@ package cloud
 type TokenActionEnum string
 
 var (
-	TokenActionEnumCONSUME TokenActionEnum = "CONSUME"
 	TokenActionEnumPRODUCE TokenActionEnum = "PRODUCE"
+	TokenActionEnumCONSUME TokenActionEnum = "CONSUME"
 	TokenActionEnumBOTH    TokenActionEnum = "BOTH"
 )

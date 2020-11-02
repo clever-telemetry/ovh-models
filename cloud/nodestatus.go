@@ -6,17 +6,17 @@ package cloud
 type NodeStatus string
 
 var (
-	NodeStatusINSTALLING                  NodeStatus = "INSTALLING"
-	NodeStatusUPDATING                    NodeStatus = "UPDATING"
-	NodeStatusRESETTING                   NodeStatus = "RESETTING"
-	NodeStatusSUSPENDING                  NodeStatus = "SUSPENDING"
-	NodeStatusREOPENING                   NodeStatus = "REOPENING"
-	NodeStatusDELETING                    NodeStatus = "DELETING"
-	NodeStatusSUSPENDED                   NodeStatus = "SUSPENDED"
-	NodeStatusERROR                       NodeStatus = "ERROR"
-	NodeStatusUSER_ERROR                  NodeStatus = "USER_ERROR"
 	NodeStatusUSER_QUOTA_ERROR            NodeStatus = "USER_QUOTA_ERROR"
-	NodeStatusUSER_NODE_NOT_FOUND_ERROR   NodeStatus = "USER_NODE_NOT_FOUND_ERROR"
 	NodeStatusUSER_NODE_SUSPENDED_SERVICE NodeStatus = "USER_NODE_SUSPENDED_SERVICE"
+	NodeStatusUSER_NODE_NOT_FOUND_ERROR   NodeStatus = "USER_NODE_NOT_FOUND_ERROR"
+	NodeStatusUSER_ERROR                  NodeStatus = "USER_ERROR"
+	NodeStatusUPDATING                    NodeStatus = "UPDATING"
+	NodeStatusSUSPENDING                  NodeStatus = "SUSPENDING"
+	NodeStatusSUSPENDED                   NodeStatus = "SUSPENDED"
+	NodeStatusRESETTING                   NodeStatus = "RESETTING"
+	NodeStatusREOPENING                   NodeStatus = "REOPENING"
 	NodeStatusREADY                       NodeStatus = "READY"
+	NodeStatusINSTALLING                  NodeStatus = "INSTALLING"
+	NodeStatusERROR                       NodeStatus = "ERROR"
+	NodeStatusDELETING                    NodeStatus = "DELETING"
 )

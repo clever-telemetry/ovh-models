@@ -6,7 +6,7 @@ package cloud
 type UnitQuantity string
 
 var (
-	UnitQuantityGIB  UnitQuantity = "GiB"
-	UnitQuantityGIBH UnitQuantity = "GiBh"
 	UnitQuantityHOUR UnitQuantity = "Hour"
+	UnitQuantityGIBH UnitQuantity = "GiBh"
+	UnitQuantityGIB  UnitQuantity = "GiB"
 )

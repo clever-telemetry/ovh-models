@@ -6,6 +6,6 @@ package cloud
 type AccessTypeEnum string
 
 var (
-	AccessTypeEnumFULL       AccessTypeEnum = "full"
 	AccessTypeEnumRESTRICTED AccessTypeEnum = "restricted"
+	AccessTypeEnumFULL       AccessTypeEnum = "full"
 )

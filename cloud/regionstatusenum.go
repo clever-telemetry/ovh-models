@@ -7,6 +7,6 @@ type RegionStatusEnum string
 
 var (
 	RegionStatusEnumUP          RegionStatusEnum = "UP"
-	RegionStatusEnumDOWN        RegionStatusEnum = "DOWN"
 	RegionStatusEnumMAINTENANCE RegionStatusEnum = "MAINTENANCE"
+	RegionStatusEnumDOWN        RegionStatusEnum = "DOWN"
 )

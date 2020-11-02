@@ -6,7 +6,7 @@ package cloud
 type OSTypeEnum string
 
 var (
+	OSTypeEnumWINDOWS OSTypeEnum = "windows"
 	OSTypeEnumLINUX   OSTypeEnum = "linux"
 	OSTypeEnumBSD     OSTypeEnum = "bsd"
-	OSTypeEnumWINDOWS OSTypeEnum = "windows"
 )

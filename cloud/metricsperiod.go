@@ -6,9 +6,9 @@ package cloud
 type MetricsPeriod string
 
 var (
-	MetricsPeriodLASTDAY   MetricsPeriod = "lastday"
-	MetricsPeriodLASTMONTH MetricsPeriod = "lastmonth"
-	MetricsPeriodLASTWEEK  MetricsPeriod = "lastweek"
-	MetricsPeriodLASTYEAR  MetricsPeriod = "lastyear"
 	MetricsPeriodTODAY     MetricsPeriod = "today"
+	MetricsPeriodLASTYEAR  MetricsPeriod = "lastyear"
+	MetricsPeriodLASTWEEK  MetricsPeriod = "lastweek"
+	MetricsPeriodLASTMONTH MetricsPeriod = "lastmonth"
+	MetricsPeriodLASTDAY   MetricsPeriod = "lastday"
 )

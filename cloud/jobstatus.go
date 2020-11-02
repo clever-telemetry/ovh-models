@@ -5,6 +5,7 @@ package cloud
 // Training Platform Job Status Object
 type JobStatus struct {
 	Duration      *int64        `json:"duration,omitempty"`
+	History       []JobStatus   `json:"history,omitempty"`
 	Infos         *string       `json:"infos,omitempty"`
 	Ip            *string       `json:"ip,omitempty"`
 	JobUrl        *string       `json:"jobUrl,omitempty"`

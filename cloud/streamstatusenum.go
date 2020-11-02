@@ -6,7 +6,7 @@ package cloud
 type StreamStatusEnum string
 
 var (
-	StreamStatusEnumINSTALLING StreamStatusEnum = "INSTALLING"
 	StreamStatusEnumRUNNING    StreamStatusEnum = "RUNNING"
+	StreamStatusEnumINSTALLING StreamStatusEnum = "INSTALLING"
 	StreamStatusEnumERROR      StreamStatusEnum = "ERROR"
 )

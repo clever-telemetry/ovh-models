@@ -6,11 +6,11 @@ package cloud
 type RenewalTypeEnum string
 
 var (
-	RenewalTypeEnumAUTOMATICFORCEDPRODUCT RenewalTypeEnum = "automaticForcedProduct"
-	RenewalTypeEnumAUTOMATICV2012         RenewalTypeEnum = "automaticV2012"
-	RenewalTypeEnumAUTOMATICV2014         RenewalTypeEnum = "automaticV2014"
-	RenewalTypeEnumAUTOMATICV2016         RenewalTypeEnum = "automaticV2016"
-	RenewalTypeEnumMANUAL                 RenewalTypeEnum = "manual"
-	RenewalTypeEnumONESHOT                RenewalTypeEnum = "oneShot"
 	RenewalTypeEnumOPTION                 RenewalTypeEnum = "option"
+	RenewalTypeEnumONESHOT                RenewalTypeEnum = "oneShot"
+	RenewalTypeEnumMANUAL                 RenewalTypeEnum = "manual"
+	RenewalTypeEnumAUTOMATICV2016         RenewalTypeEnum = "automaticV2016"
+	RenewalTypeEnumAUTOMATICV2014         RenewalTypeEnum = "automaticV2014"
+	RenewalTypeEnumAUTOMATICV2012         RenewalTypeEnum = "automaticV2012"
+	RenewalTypeEnumAUTOMATICFORCEDPRODUCT RenewalTypeEnum = "automaticForcedProduct"
 )

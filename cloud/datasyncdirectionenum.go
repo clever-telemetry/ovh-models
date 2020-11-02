@@ -6,6 +6,6 @@ package cloud
 type DataSyncDirectionEnum string
 
 var (
-	DataSyncDirectionEnumFROM_OBJECT_STORAGE DataSyncDirectionEnum = "from-object-storage"
 	DataSyncDirectionEnumTO_OBJECT_STORAGE   DataSyncDirectionEnum = "to-object-storage"
+	DataSyncDirectionEnumFROM_OBJECT_STORAGE DataSyncDirectionEnum = "from-object-storage"
 )

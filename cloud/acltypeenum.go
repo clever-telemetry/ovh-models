@@ -6,6 +6,6 @@ package cloud
 type AclTypeEnum string
 
 var (
-	AclTypeEnumREADONLY  AclTypeEnum = "readOnly"
 	AclTypeEnumREADWRITE AclTypeEnum = "readWrite"
+	AclTypeEnumREADONLY  AclTypeEnum = "readOnly"
 )

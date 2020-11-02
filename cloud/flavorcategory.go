@@ -6,9 +6,9 @@ package cloud
 type FlavorCategory string
 
 var (
-	FlavorCategoryC FlavorCategory = "c"
-	FlavorCategoryG FlavorCategory = "g"
 	FlavorCategoryT FlavorCategory = "t"
-	FlavorCategoryB FlavorCategory = "b"
 	FlavorCategoryR FlavorCategory = "r"
+	FlavorCategoryG FlavorCategory = "g"
+	FlavorCategoryC FlavorCategory = "c"
+	FlavorCategoryB FlavorCategory = "b"
 )

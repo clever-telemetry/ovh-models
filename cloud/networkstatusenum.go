@@ -6,7 +6,7 @@ package cloud
 type NetworkStatusEnum string
 
 var (
+	NetworkStatusEnumDELETING NetworkStatusEnum = "DELETING"
 	NetworkStatusEnumBUILDING NetworkStatusEnum = "BUILDING"
 	NetworkStatusEnumACTIVE   NetworkStatusEnum = "ACTIVE"
-	NetworkStatusEnumDELETING NetworkStatusEnum = "DELETING"
 )

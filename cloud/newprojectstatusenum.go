@@ -6,8 +6,8 @@ package cloud
 type NewProjectStatusEnum string
 
 var (
-	NewProjectStatusEnumCREATING                    NewProjectStatusEnum = "creating"
-	NewProjectStatusEnumOK                          NewProjectStatusEnum = "ok"
-	NewProjectStatusEnumVALIDATIONPENDING           NewProjectStatusEnum = "validationPending"
 	NewProjectStatusEnumWAITINGAGREEMENTSVALIDATION NewProjectStatusEnum = "waitingAgreementsValidation"
+	NewProjectStatusEnumVALIDATIONPENDING           NewProjectStatusEnum = "validationPending"
+	NewProjectStatusEnumOK                          NewProjectStatusEnum = "ok"
+	NewProjectStatusEnumCREATING                    NewProjectStatusEnum = "creating"
 )

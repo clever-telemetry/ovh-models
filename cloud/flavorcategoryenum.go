@@ -6,10 +6,10 @@ package cloud
 type FlavorCategoryEnum string
 
 var (
-	FlavorCategoryEnumC FlavorCategoryEnum = "c"
-	FlavorCategoryEnumG FlavorCategoryEnum = "g"
 	FlavorCategoryEnumT FlavorCategoryEnum = "t"
-	FlavorCategoryEnumB FlavorCategoryEnum = "b"
 	FlavorCategoryEnumR FlavorCategoryEnum = "r"
 	FlavorCategoryEnumI FlavorCategoryEnum = "i"
+	FlavorCategoryEnumG FlavorCategoryEnum = "g"
+	FlavorCategoryEnumC FlavorCategoryEnum = "c"
+	FlavorCategoryEnumB FlavorCategoryEnum = "b"
 )

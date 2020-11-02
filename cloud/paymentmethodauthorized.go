@@ -6,8 +6,8 @@ package cloud
 type PaymentMethodAuthorized string
 
 var (
-	PaymentMethodAuthorizedBANKACCOUNT PaymentMethodAuthorized = "bankAccount"
-	PaymentMethodAuthorizedCREDIT      PaymentMethodAuthorized = "credit"
-	PaymentMethodAuthorizedCREDITCARD  PaymentMethodAuthorized = "creditCard"
 	PaymentMethodAuthorizedPAYPAL      PaymentMethodAuthorized = "paypal"
+	PaymentMethodAuthorizedCREDITCARD  PaymentMethodAuthorized = "creditCard"
+	PaymentMethodAuthorizedCREDIT      PaymentMethodAuthorized = "credit"
+	PaymentMethodAuthorizedBANKACCOUNT PaymentMethodAuthorized = "bankAccount"
 )

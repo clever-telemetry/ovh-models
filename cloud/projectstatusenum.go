@@ -6,9 +6,9 @@ package cloud
 type ProjectStatusEnum string
 
 var (
-	ProjectStatusEnumCREATING  ProjectStatusEnum = "creating"
-	ProjectStatusEnumDELETED   ProjectStatusEnum = "deleted"
-	ProjectStatusEnumDELETING  ProjectStatusEnum = "deleting"
-	ProjectStatusEnumOK        ProjectStatusEnum = "ok"
 	ProjectStatusEnumSUSPENDED ProjectStatusEnum = "suspended"
+	ProjectStatusEnumOK        ProjectStatusEnum = "ok"
+	ProjectStatusEnumDELETING  ProjectStatusEnum = "deleting"
+	ProjectStatusEnumDELETED   ProjectStatusEnum = "deleted"
+	ProjectStatusEnumCREATING  ProjectStatusEnum = "creating"
 )

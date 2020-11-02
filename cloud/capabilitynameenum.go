@@ -6,8 +6,8 @@ package cloud
 type CapabilityNameEnum string
 
 var (
-	CapabilityNameEnumRESIZE     CapabilityNameEnum = "resize"
-	CapabilityNameEnumSNAPSHOT   CapabilityNameEnum = "snapshot"
 	CapabilityNameEnumVOLUME     CapabilityNameEnum = "volume"
+	CapabilityNameEnumSNAPSHOT   CapabilityNameEnum = "snapshot"
+	CapabilityNameEnumRESIZE     CapabilityNameEnum = "resize"
 	CapabilityNameEnumFAILOVERIP CapabilityNameEnum = "failoverip"
 )

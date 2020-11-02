@@ -6,8 +6,8 @@ package cloud
 type RegionEnum string
 
 var (
-	RegionEnumGRA5 RegionEnum = "GRA5"
-	RegionEnumGRA7 RegionEnum = "GRA7"
-	RegionEnumBHS5 RegionEnum = "BHS5"
 	RegionEnumSBG5 RegionEnum = "SBG5"
+	RegionEnumGRA7 RegionEnum = "GRA7"
+	RegionEnumGRA5 RegionEnum = "GRA5"
+	RegionEnumBHS5 RegionEnum = "BHS5"
 )

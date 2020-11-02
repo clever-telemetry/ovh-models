@@ -6,9 +6,9 @@ package cloud
 type BalancerAlgorithmEnum string
 
 var (
-	BalancerAlgorithmEnumROUNDROBIN BalancerAlgorithmEnum = "roundrobin"
 	BalancerAlgorithmEnumSTATIC_RR  BalancerAlgorithmEnum = "static-rr"
+	BalancerAlgorithmEnumSOURCE     BalancerAlgorithmEnum = "source"
+	BalancerAlgorithmEnumROUNDROBIN BalancerAlgorithmEnum = "roundrobin"
 	BalancerAlgorithmEnumLEASTCONN  BalancerAlgorithmEnum = "leastconn"
 	BalancerAlgorithmEnumFIRST      BalancerAlgorithmEnum = "first"
-	BalancerAlgorithmEnumSOURCE     BalancerAlgorithmEnum = "source"
 )
