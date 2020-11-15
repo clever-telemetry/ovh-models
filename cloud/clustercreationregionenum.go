@@ -6,6 +6,7 @@ package cloud
 type ClusterCreationRegionEnum string
 
 var (
+	ClusterCreationRegionEnumWAW1 ClusterCreationRegionEnum = "WAW1"
 	ClusterCreationRegionEnumSBG5 ClusterCreationRegionEnum = "SBG5"
 	ClusterCreationRegionEnumGRA7 ClusterCreationRegionEnum = "GRA7"
 	ClusterCreationRegionEnumGRA5 ClusterCreationRegionEnum = "GRA5"

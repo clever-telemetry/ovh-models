@@ -79,11 +79,11 @@ fetch('https://eu.api.ovh.com/1.0/')
 .then(res => res.json())
 .then(apis => {
   apis.apis
-  .filter(({path}) => path === '/cloud')
+  .filter(({path}) => ['/cloud', '/auth'].includes(path))
   .map(({path}) => Generate(path.replace(/^\//g, '')))
 })
 .then(() => {
-  exec('go fmt ./cloud/...', (error, stdout, stderr) => {
+  exec('go fmt ./...', (error, stdout, stderr) => {
     if (error) {
       console.log(`error: ${error.message}`)
       return
