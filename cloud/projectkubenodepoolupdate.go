@@ -4,7 +4,9 @@ package cloud
 
 // Missing description
 type ProjectKubeNodePoolUpdate struct {
-	DesiredNodes *int64 `json:"desiredNodes,omitempty"`
-	MaxNodes     *int64 `json:"maxNodes,omitempty"`
-	MinNodes     *int64 `json:"minNodes,omitempty"`
+	Autoscale     *bool     `json:"autoscale,omitempty"`
+	DesiredNodes  *int64    `json:"desiredNodes,omitempty"`
+	MaxNodes      *int64    `json:"maxNodes,omitempty"`
+	MinNodes      *int64    `json:"minNodes,omitempty"`
+	NodesToRemove *[]string `json:"nodesToRemove,omitempty"`
 }

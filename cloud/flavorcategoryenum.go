@@ -10,6 +10,7 @@ var (
 	FlavorCategoryEnumR FlavorCategoryEnum = "r"
 	FlavorCategoryEnumI FlavorCategoryEnum = "i"
 	FlavorCategoryEnumG FlavorCategoryEnum = "g"
+	FlavorCategoryEnumD FlavorCategoryEnum = "d"
 	FlavorCategoryEnumC FlavorCategoryEnum = "c"
 	FlavorCategoryEnumB FlavorCategoryEnum = "b"
 )

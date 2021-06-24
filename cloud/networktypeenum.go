@@ -2,7 +2,7 @@ package cloud
 
 // GENERATED SDK for cloud API
 
-// NetworkTypeEnum
+// Type of network in which the databases cluster are
 type NetworkTypeEnum string
 
 var (

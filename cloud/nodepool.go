@@ -5,6 +5,7 @@ package cloud
 // NodePool created on your cluster to manage your nodes
 type NodePool struct {
 	AntiAffinity   bool                   `json:"antiAffinity,omitempty"`
+	Autoscale      bool                   `json:"autoscale,omitempty"`
 	AvailableNodes int64                  `json:"availableNodes,omitempty"`
 	CreatedAt      string                 `json:"createdAt,omitempty"`
 	CurrentNodes   int64                  `json:"currentNodes,omitempty"`

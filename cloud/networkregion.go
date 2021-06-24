@@ -4,6 +4,7 @@ package cloud
 
 // NetworkRegion
 type NetworkRegion struct {
-	Region string                  `json:"region,omitempty"`
-	Status NetworkRegionStatusEnum `json:"status,omitempty"`
+	OpenstackId *string                 `json:"openstackId,omitempty"`
+	Region      string                  `json:"region,omitempty"`
+	Status      NetworkRegionStatusEnum `json:"status,omitempty"`
 }

@@ -11,6 +11,7 @@ type Cluster struct {
 	Name                   string                `json:"name,omitempty"`
 	NextUpgradeVersions    *[]UpgradeVersionEnum `json:"nextUpgradeVersions,omitempty"`
 	NodesUrl               string                `json:"nodesUrl,omitempty"`
+	PrivateNetworkId       *string               `json:"privateNetworkId,omitempty"`
 	Region                 RegionEnum            `json:"region,omitempty"`
 	Status                 ClusterStatusEnum     `json:"status,omitempty"`
 	UpdatePolicy           string                `json:"updatePolicy,omitempty"`

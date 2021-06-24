@@ -6,6 +6,7 @@ package cloud
 type JobStateEnum string
 
 var (
+	JobStateEnumTIMEOUT      JobStateEnum = "TIMEOUT"
 	JobStateEnumRUNNING      JobStateEnum = "RUNNING"
 	JobStateEnumQUEUED       JobStateEnum = "QUEUED"
 	JobStateEnumPENDING      JobStateEnum = "PENDING"

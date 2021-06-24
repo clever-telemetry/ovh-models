@@ -6,6 +6,5 @@ package cloud
 type ModeEnum string
 
 var (
-	ModeEnumTCP  ModeEnum = "TCP"
-	ModeEnumHTTP ModeEnum = "HTTP"
+	ModeEnumTCP ModeEnum = "TCP"
 )

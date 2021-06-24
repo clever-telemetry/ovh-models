@@ -8,4 +8,5 @@ type Backend struct {
 	Name          string                 `json:"name"`
 	ProxyProtocol *ProxyProtocolEnum     `json:"proxyProtocol,omitempty"`
 	Servers       []Server               `json:"servers"`
+	Sticky        *bool                  `json:"sticky,omitempty"`
 }

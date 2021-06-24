@@ -2,8 +2,9 @@ package cloud
 
 // GENERATED SDK for cloud API
 
-// Training Platform Gpu Object
+// AI Solutions Gpu Object
 type Gpu struct {
+	Default bool   `json:"default,omitempty"`
 	MaxGpus int64  `json:"maxGpus,omitempty"`
-	Type    string `json:"type,omitempty"`
+	Model   string `json:"model,omitempty"`
 }

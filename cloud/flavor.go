@@ -2,10 +2,10 @@ package cloud
 
 // GENERATED SDK for cloud API
 
-// Compute Flavor for the Serving Engine
+// Cloud Database flavor definition
 type Flavor struct {
-	CpuCore     int64  `json:"cpuCore,omitempty"`
-	Description string `json:"description,omitempty"`
-	Id          string `json:"id,omitempty"`
-	RamMB       int64  `json:"ramMB,omitempty"`
+	Core    int64  `json:"core,omitempty"`
+	Memory  int64  `json:"memory,omitempty"`
+	Name    string `json:"name,omitempty"`
+	Storage int64  `json:"storage,omitempty"`
 }

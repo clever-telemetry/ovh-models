@@ -79,7 +79,7 @@ fetch('https://eu.api.ovh.com/1.0/')
 .then(res => res.json())
 .then(apis => {
   apis.apis
-  .filter(({path}) => ['/cloud', '/auth'].includes(path))
+  .filter(({path}) => ['/cloud', '/auth', '/me'].includes(path))
   .map(({path}) => Generate(path.replace(/^\//g, '')))
 })
 .then(() => {

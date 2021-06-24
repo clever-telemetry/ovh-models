@@ -5,6 +5,7 @@ package cloud
 // Missing description
 type ProjectKubeNodePoolCreation struct {
 	AntiAffinity  *bool   `json:"antiAffinity,omitempty"`
+	Autoscale     *bool   `json:"autoscale,omitempty"`
 	DesiredNodes  *int64  `json:"desiredNodes,omitempty"`
 	FlavorName    string  `json:"flavorName"`
 	MaxNodes      *int64  `json:"maxNodes,omitempty"`

@@ -7,6 +7,7 @@ type InstanceStatusEnum string
 
 var (
 	InstanceStatusEnumVERIFY_RESIZE     InstanceStatusEnum = "VERIFY_RESIZE"
+	InstanceStatusEnumUNSHELVING        InstanceStatusEnum = "UNSHELVING"
 	InstanceStatusEnumUNRESCUING        InstanceStatusEnum = "UNRESCUING"
 	InstanceStatusEnumUNKNOWN           InstanceStatusEnum = "UNKNOWN"
 	InstanceStatusEnumSUSPENDED         InstanceStatusEnum = "SUSPENDED"
@@ -14,6 +15,7 @@ var (
 	InstanceStatusEnumSOFT_DELETED      InstanceStatusEnum = "SOFT_DELETED"
 	InstanceStatusEnumSNAPSHOTTING      InstanceStatusEnum = "SNAPSHOTTING"
 	InstanceStatusEnumSHUTOFF           InstanceStatusEnum = "SHUTOFF"
+	InstanceStatusEnumSHELVING          InstanceStatusEnum = "SHELVING"
 	InstanceStatusEnumSHELVED_OFFLOADED InstanceStatusEnum = "SHELVED_OFFLOADED"
 	InstanceStatusEnumSHELVED           InstanceStatusEnum = "SHELVED"
 	InstanceStatusEnumREVERT_RESIZE     InstanceStatusEnum = "REVERT_RESIZE"

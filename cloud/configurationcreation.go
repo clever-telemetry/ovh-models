@@ -4,7 +4,9 @@ package cloud
 
 // A load balancer configuration
 type ConfigurationCreation struct {
-	Backends  []Backend  `json:"backends,omitempty"`
-	Frontends []Frontend `json:"frontends,omitempty"`
-	Version   int64      `json:"version,omitempty"`
+	Backends     []Backend   `json:"backends,omitempty"`
+	Certificates []string    `json:"certificates,omitempty"`
+	Frontends    []Frontend  `json:"frontends,omitempty"`
+	Networking   *Networking `json:"networking,omitempty"`
+	Version      int64       `json:"version,omitempty"`
 }

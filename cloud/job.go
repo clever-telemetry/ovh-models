@@ -15,4 +15,5 @@ type Job struct {
 	Region           string            `json:"region"`
 	StartDate        *string           `json:"startDate,omitempty"`
 	Status           StatusEnum        `json:"status,omitempty"`
+	Ttl              *string           `json:"ttl,omitempty"`
 }

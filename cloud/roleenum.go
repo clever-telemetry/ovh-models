@@ -15,6 +15,7 @@ var (
 	RoleEnumCOMPUTE_OPERATOR          RoleEnum = "compute_operator"
 	RoleEnumBACKUP_OPERATOR           RoleEnum = "backup_operator"
 	RoleEnumAUTHENTICATION            RoleEnum = "authentication"
+	RoleEnumAI_TRAINING_READ          RoleEnum = "ai_training_read"
 	RoleEnumAI_TRAINING_OPERATOR      RoleEnum = "ai_training_operator"
 	RoleEnumADMINISTRATOR             RoleEnum = "administrator"
 	RoleEnumADMIN                     RoleEnum = "admin"

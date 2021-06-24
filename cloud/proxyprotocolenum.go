@@ -2,7 +2,7 @@ package cloud
 
 // GENERATED SDK for cloud API
 
-// Available load balancer backend proxy-protocol
+// Available load balancer target proxy-protocol
 type ProxyProtocolEnum string
 
 var (

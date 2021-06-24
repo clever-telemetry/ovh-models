@@ -5,7 +5,9 @@ package cloud
 // A deployed machine learning model
 type Model struct {
 	ApiStatus                  APIStatusEnum                  `json:"apiStatus,omitempty"`
+	AutoscalingSpec            *AutoscalingSpec               `json:"autoscalingSpec,omitempty"`
 	CreatedAt                  string                         `json:"createdAt,omitempty"`
+	Flavor                     *string                        `json:"flavor,omitempty"`
 	Id                         string                         `json:"id,omitempty"`
 	Replicas                   *int64                         `json:"replicas,omitempty"`
 	Url                        *string                        `json:"url,omitempty"`

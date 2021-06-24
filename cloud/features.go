@@ -2,8 +2,7 @@ package cloud
 
 // GENERATED SDK for cloud API
 
-// Training Platform Data Object
+// Features of Serving Engine
 type Features struct {
-	Lab      bool `json:"lab,omitempty"`
-	Registry bool `json:"registry,omitempty"`
+	ChooseBackend bool `json:"chooseBackend,omitempty"`
 }

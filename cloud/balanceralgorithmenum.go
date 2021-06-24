@@ -2,7 +2,7 @@ package cloud
 
 // GENERATED SDK for cloud API
 
-// Available load balancer backend balancer algorithm
+// Available load balancer target balancer algorithm
 type BalancerAlgorithmEnum string
 
 var (
